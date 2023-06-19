@@ -57,3 +57,13 @@ body{
 .font-weight{
   font-weight: 700;
 }
+.reveal{
+  position: relative;
+  transform: translateY(200px);
+  opacity: 0;
+  transition: 3s all ease;
+}
+.reveal.active{
+  transform: translateY(0px);
+  opacity: 1;
+}
